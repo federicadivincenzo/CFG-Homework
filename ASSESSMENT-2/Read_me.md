@@ -29,8 +29,14 @@ CREATE TABLE Bookings (
 
 ### 2.	Discuss Exception handling (4 pts) and debugging in Python (4 pts)
 
-> We use execution handling to try if a code works and to prevent any error that we can collect with the except keyword. We use debugging to understand what is cousing an error in our code by analysing line by line what is happening. 
-
+> We use execution handling to try if a code works and to prevent any error that we can collect with the except keyword. We use debugging to understand what is raising an error in our code by analysing line by line what is happening. 
+> eg:
+```
+try: 
+    transform_to_square(2)
+except ValueError:
+    print("Please insert a list of numbers") 
+```
 
 ### 3.	Write a function that takes in a non-empty array of integers that are sorted in ascending order and returns a new array of the same length with the squares of the original integers also sorted in ascending order.
 ```
