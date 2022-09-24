@@ -43,12 +43,12 @@ High level description of the system is as follows:
 - Assume that one person works on one task.
 - Mark tasks that can be worked on in parallel and perhaps those that need to be worked on in particular order.
 
-###Legend
+#### Legend
 > **Red priority** and needs to be developed first
 > 
 > **Green** can work in parallel
 
-![alt text](./Screenshot 2022-09-25 at 00.03.42.png)
+![alt text](./QUESTION 1.png)
 
 ### ASK 2 (SQL)
 #### Question 1
@@ -84,4 +84,4 @@ You do not need to write actual code, but describe the high-level approach:
 > - use analytical tool to predict user preferences based on movies attended
 > - Python package to manage login and sign up to complete booking (Flask-login)
 5. You are welcome to draw a diagram (a very simple one) for the process flow to explain how it is going to work.
-![alt text](./Screenshot 2022-09-23 at 15.17.49.png)
+![alt text](./QUESTION 2.png)
