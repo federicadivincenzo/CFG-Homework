@@ -74,6 +74,9 @@ class Cat(Dog):
     def __init__(self, name, dob, colour, owner, pet_id, breed):
         super().__init__(name, dob, colour, owner, pet_id, breed)
 
+    def sound(self):
+        return 'Meow Meow'
+
 # <independent class PetOwner with name and pet_id attributes HERE>
 
 class PetOwner:
